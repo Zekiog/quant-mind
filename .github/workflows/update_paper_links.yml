@@ -3,9 +3,6 @@ name: Run Update Paper Links (weekly)
 on:
   workflow_call:
   workflow_dispatch:
-  schedule:
-    - cron:  "0 2 * * 1"
-    # run every Monday at 2:00 AM
 
 env:
   GITHUB_USER_NAME: WinstonLiyte
